@@ -40,19 +40,8 @@
 .read-the-docs {
   color: #888;
 }
-<<<<<<< HEAD
-
-
-/* Center content and increase width */
-.app-container {
-  max-width: 1300px;      /* makes page bigger */
-  margin: 0 auto;        /* center align */
-  padding: 20px;
-}
-
-/* Optional: smoother look */
 body {
-  background-color: #f8f9fa;  /* light bootstrap gray */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
 }
-=======
->>>>>>> 55d21f7f94ac0ef029e1771322d12ee9cf449d59

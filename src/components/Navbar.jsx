@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -33,7 +33,7 @@ export default function Navigation() {
     </Navbar>
   );
 }
-=======
+
 function Navbar({ setPage }) {
   return (
     <nav>
@@ -53,4 +53,3 @@ function Navbar({ setPage }) {
 }
 
 export default Navbar;
->>>>>>> 55d21f7f94ac0ef029e1771322d12ee9cf449d59

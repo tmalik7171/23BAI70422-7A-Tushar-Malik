@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React UI Component Design – Practice 1
 
 A modern and visually appealing user interface built using **React**, **Bootstrap**, and **Material UI (MUI)**.  
@@ -154,4 +153,3 @@ single-page-react
 ├── package.json
 ├── vite.config.js
 └── README.md
->>>>>>> 55d21f7f94ac0ef029e1771322d12ee9cf449d59
