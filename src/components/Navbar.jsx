@@ -1,10 +1,9 @@
-
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 
-export default function Navigation() {
+export default function AppNavbar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
@@ -33,23 +32,3 @@ export default function Navigation() {
     </Navbar>
   );
 }
-
-function Navbar({ setPage }) {
-  return (
-    <nav>
-      <button onClick={() => setPage("home")}>
-        <i className="fa-solid fa-house"></i> Home
-      </button>
-
-      <button onClick={() => setPage("about")}>
-        <i className="fa-solid fa-circle-info"></i> About
-      </button>
-
-      <button onClick={() => setPage("contact")}>
-        <i className="fa-solid fa-envelope"></i> Contact
-      </button>
-    </nav>
-  );
-}
-
-export default Navbar;
