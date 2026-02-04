@@ -1,0 +1,13 @@
+body {
+  background-color: #f1f3f5;
+}
+
+/* MAIN APP LAYOUT */
+.app-container {
+  max-width: 1200px;   /* BIGGER width */
+  margin: 40px auto;   /* CENTER horizontally */
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
