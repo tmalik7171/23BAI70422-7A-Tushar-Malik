@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: #f1f3f5;
 }
 
@@ -10,4 +11,41 @@ body {
   background: white;
   border-radius: 12px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+=======
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+nav button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+i {
+  margin-right: 6px;
+}
+
+
+.container {
+  background-color: white;
+  width: 60%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+nav button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #71a0df;
+>>>>>>> 55d21f7f94ac0ef029e1771322d12ee9cf449d59
 }
