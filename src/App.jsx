@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppNavbar from "./components/Navbar";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <AppNavbar />
 
       <Routes>
         <Route path="/" element={<Home />} />

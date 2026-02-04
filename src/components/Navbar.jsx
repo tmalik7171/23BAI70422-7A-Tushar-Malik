@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 
-export default function AppNavbar() {
+export default function Navigation() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>

@@ -1,5 +1,4 @@
 body {
-
   background-color: #f1f3f5;
 }
 
@@ -45,6 +44,5 @@ nav button {
 }
 
 nav button:hover {
-  background-color: #71a0df;
-
+  background-color: #71a0df; 
 }
