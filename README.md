@@ -1,107 +1,150 @@
-# React UI Component Design – Practice 1
+# 🚀 Experiment 4 – Advanced React State Management
 
-A modern and visually appealing user interface built using **React**, **Bootstrap**, and **Material UI (MUI)**.  
-This project focuses on **component-based UI design** and clean layout principles using popular UI libraries.
+## 📌 Overview
 
----
+This experiment is an extension of Experiment 3 (Multi-Page React Application using React Router).
 
-## 📌 Project Description
+In this update, the project has been enhanced using advanced React concepts including:
 
-This project is developed as part of **UI Design Practice (Practice 1)**.  
-The main goal is to design a **clean, modern, and responsive webpage** using UI component libraries in React.
+- Context API (Global State Management)
+- useReducer (Structured State Updates)
+- useMemo (Performance Optimization)
+- One New Page integrated using React Router
 
-The application demonstrates how reusable components can be structured and styled effectively to create a meaningful real-world webpage.
-
----
-
-## 🎯 Objectives
-
-- Learn component-based UI design in React
-- Understand basic folder structuring in React projects
-- Use Bootstrap and Material UI for modern UI components
-- Design a clean, responsive, and visually appealing webpage
-- Apply basic UI/UX principles such as spacing, alignment, and typography
+The UI design remains consistent with Experiment 3 while adding improved functionality and structured state handling.
 
 ---
 
-## 🧩 Technologies & Libraries Used
+## 🎯 Objective
 
-- React (Vite)
-- Bootstrap
-- React-Bootstrap
-- Material UI (MUI)
+- To understand and implement global state using Context API.
+- To manage complex state transitions using useReducer.
+- To optimize derived computations using useMemo.
+- To extend a multi-page React application while maintaining UI/UX consistency.
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- React Router DOM
+- React Bootstrap
+- Vite
+- JavaScript (ES6+)
 - CSS
 
 ---
 
-## 📁 Folder Structure
+## 📂 Project Structure
 
 src/
 │
 ├── components/
-│ └── Navbar.jsx
+│   └── Navbar.jsx
 │
-├── pages/
-│ └── Home.jsx
+├── context/
+│   └── AppContext.jsx
+│
+├── reducer/
+│   └── appReducer.jsx
+│
+├── Pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   └── Analytics.jsx   (New Page Added)
 │
 ├── App.jsx
 ├── main.jsx
 └── index.css
 
+---
+
+## 🔥 Features Implemented
+
+### 1️⃣ Multi-Page Navigation (React Router)
+
+- Home Page
+- About Page
+- Contact Page
+- Analytics Page (New)
+
+Navigation is handled using react-router-dom with proper routing configuration.
 
 ---
 
-## 📄 Page Details
+### 2️⃣ Context API (Global State)
 
-### 🏠 Home Page
-- Main landing page of the application
-- Uses Bootstrap components for layout and structure
-- Uses Material UI components for enhanced UI elements
-- Demonstrates clean and modern design
+A global context provider is created to manage shared application state across multiple components. This eliminates prop drilling and ensures centralized state management.
 
 ---
 
-## ⚙️ Installation & Setup
+### 3️⃣ useReducer (Structured State Management)
 
-### 1️⃣ Clone the Repository
-```bash
-git clone <repository-url>
-cd exp-2
-2️⃣ Install Dependencies
-npm install
-3️⃣ Run the Project
-npm run dev
-The application will run on:
+Reducer is implemented for predictable state updates.
 
-http://localhost:5173
-🚀 Features
-Modern and clean UI design
+Actions Implemented:
+- ADD_ITEM
+- REMOVE_ITEM
+- CLEAR_ITEMS
 
-Responsive layout (mobile and desktop friendly)
+This ensures controlled and scalable state transitions.
 
-Reusable React components
+---
 
-Proper spacing, alignment, and typography
+### 4️⃣ useMemo (Performance Optimization)
 
-Uses UI component libraries effectively
+useMemo is used to compute derived data efficiently such as:
 
-🧪 Practice Coverage
-✅ Practice 1: UI Component Design
-Designed a meaningful webpage using Bootstrap and Material UI
+- Total items count
+- Summary calculations
 
-Followed component-based architecture
+This prevents unnecessary recalculations and improves performance.
 
-Focused on UI design rather than routing or navigation logic
+---
 
-🧠 Learning Outcomes
-Better understanding of React components
+## 🧠 Application Flow
 
-Practical experience with Bootstrap and Material UI
+1. User triggers an action (e.g., Add Item).
+2. Action is dispatched using dispatch().
+3. Reducer processes the action and updates the state.
+4. Updated state re-renders the UI.
+5. Derived values are optimized using useMemo.
 
-Improved UI/UX design skills
+---
 
-Understanding of clean code and project structure
+## 📷 Screenshots
 
-👤 Author
-Tushar Malik
-B.Tech – Computer Science Engineering (AI & ML)
+Screenshots are stored inside the /screenshots folder.
+
+Example:
+- Home Page
+- Analytics Page
+- Navigation View
+
+---
+
+## 🌐 Deployment
+
+Project deployed using Vercel.
+
+Deployment format followed:
+{uid}-4-{name}.vercel.app
+
+Example:
+24bda70021-4-yourname.vercel.app
+
+---
+
+## 🎓 Learning Outcomes
+
+- Implemented global state management using Context API.
+- Managed structured state transitions using useReducer.
+- Optimized rendering performance using useMemo.
+- Extended a multi-page React application professionally.
+
+---
+
+## ✅ Conclusion
+
+Experiment 4 successfully enhances the multi-page React application by integrating advanced state management techniques. The project demonstrates proper architecture, optimized performance, and scalable state handling using modern React hooks.

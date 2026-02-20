@@ -1,19 +1,22 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AppNavbar from "./components/Navbar";
-
+import Navigation from "./components/Navbar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Analytics from "./Pages/Analytics";
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
-      <AppNavbar />
+      <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/analytics" element={<Analytics />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
 }
+
+export default App;

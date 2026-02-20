@@ -46,3 +46,44 @@ nav button {
 nav button:hover {
   background-color: #71a0df; 
 }
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* LIGHT MODE */
+body.light-mode {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+}
+
+/* DARK MODE */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+/* Override Bootstrap Components */
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #333 !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #1c1c1c !important;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #0d6efd !important;
+}
