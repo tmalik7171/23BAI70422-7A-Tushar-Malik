@@ -6,10 +6,15 @@ This project demonstrates state management, event handling, and component-based 
 📌 Features
 
 ✨ Displays a dynamic counter value
+
 ✨ Increment the counter
+
 ✨ Decrement the counter
+
 ✨ Reset the counter
+
 ✨ Clean and responsive UI
+
 ✨ Built using modern React practices
 
 🛠 Technologies Used
@@ -31,10 +36,15 @@ src/
 
 
 Explanation
+
 File	Description
+
 main.jsx	Entry point of the React application
+
 App.jsx	Root component that loads the Counter
+
 Counter.jsx	Contains the counter logic and UI
+
 ⚙️ How It Works
 
 1️⃣ The application uses the useState hook to store the counter value.
@@ -51,10 +61,15 @@ count = count - 1
 
 🧠 Concepts Covered
 
+
 ✔ React Functional Components
+
 ✔ useState Hook
+
 ✔ Event Handling
+
 ✔ Component-Based Architecture
+
 ✔ Dynamic UI Updates
 
 🚀 Possible Improvements
@@ -62,20 +77,28 @@ count = count - 1
 You can extend this project by adding:
 
 ⭐ Counter animations
+
 ⭐ Dark / Light mode
+
 ⭐ Minimum and maximum value validation
+
 ⭐ Local storage support
+
 ⭐ API integration
 
 
 This project helps beginners understand:
 
 How React components work
+
 How state is managed using hooks
+
 How user interactions update the UI dynamically
 
 👨‍💻 Author
 
 Tushar Malik
+
 Computer Science Engineering (AI & ML)
+
 Chandigarh University
