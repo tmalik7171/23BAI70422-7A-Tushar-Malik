@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -5,5 +6,18 @@ import App from "./App";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
+=======
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { AppProvider } from "./context/AppContext";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <AppProvider>
+      <App />
+    </AppProvider>
+>>>>>>> 1d939af2fee95855e5131eace9b52aafbe502235
   </React.StrictMode>
 );

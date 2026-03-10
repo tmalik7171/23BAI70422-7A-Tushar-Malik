@@ -28,6 +28,8 @@ src/
  │      └── Counter.jsx
  ├── App.jsx
  └── main.jsx
+
+
 Explanation
 File	Description
 main.jsx	Entry point of the React application

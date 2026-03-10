@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +67,94 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+=======
+body {
+  background-color: #f1f3f5;
+}
+
+/* MAIN APP LAYOUT */
+.app-container {
+  max-width: 1200px;   /* BIGGER width */
+  margin: 40px auto;   /* CENTER horizontally */
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+nav button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+i {
+  margin-right: 6px;
+}
+
+
+.container {
+  background-color: white;
+  width: 60%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+nav button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #71a0df; 
+}
+
+.light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* LIGHT MODE */
+body.light-mode {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+}
+
+/* DARK MODE */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+/* Override Bootstrap Components */
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #333 !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #1c1c1c !important;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #0d6efd !important;
+}
+>>>>>>> 1d939af2fee95855e5131eace9b52aafbe502235
